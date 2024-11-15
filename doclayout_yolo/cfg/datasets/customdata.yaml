@@ -15,14 +15,5 @@ test: val.txt # 20288 of 40670 images, submit to https://competitions.codalab.or
 
 # Classes
 names:
-  0: Caption
-  1: Footnote
-  2: Formula
-  3: List-item
-  4: Page-footer
-  5: Page-header
-  6: Picture
-  7: Section-header
-  8: Table
-  9: Text
-  10: Title
+  0: math_mun
+  1: page

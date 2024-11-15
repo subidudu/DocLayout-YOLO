@@ -266,6 +266,7 @@ class BaseTrainer:
                 v.requires_grad = True
 
         # Check AMP
+        self.args.amp = False
         self.amp = torch.tensor(self.args.amp).to(self.device)  # True or False
         if self.amp and RANK in (-1, 0):  # Single-GPU and DDP
             callbacks_backup = callbacks.default_callbacks.copy()  # backup callbacks as check_amp() resets them

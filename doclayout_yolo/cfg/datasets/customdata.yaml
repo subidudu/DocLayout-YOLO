@@ -15,9 +15,9 @@ test: val.txt # 20288 of 40670 images, submit to https://competitions.codalab.or
 
 # Classes
 names:
-  0: math_hea
-  1: math_hea1
-  2: math_hea2
+  0: math_hea2
+  1: math_hea
+  2: math_hea1
   3: mogo_subject
   4: math_mun
   5: math_hea3
